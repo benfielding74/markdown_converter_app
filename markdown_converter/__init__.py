@@ -1,6 +1,6 @@
 # Import any modules or submodules that you want to make accessible when importing your module
-from .main import convert_html_to_markdown, convert_all_html_files
+from .markdown_converter import convert_html_to_markdown, convert_all_html_files
 
-VERSION = '1.0.0'
+VERSION = '0.1.0'
 
 __all__ = ['convert_html_to_markdown', 'convert_all_html_files', 'VERSION']
