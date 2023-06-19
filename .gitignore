@@ -5,4 +5,6 @@
 /markdown_converter.egg-info
 */__pycache__
 /*.spec
+.DS_Store
+.history/
 

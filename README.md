@@ -13,6 +13,7 @@ The tool can be run in two ways:
   ```bash
 
   git clone https://github.com/benfielding74/markdown_converter_app.git
+  cd markdown_converter_app
   pip install .
 
   ```
@@ -21,7 +22,7 @@ The tool can be run in two ways:
 
 ## How to use
 
-Your Confluence HTML export will download in a `.zip` file. Unzip this fileto a convenient location, this will act as your source directory. If using the binary then run:
+Your Confluence HTML export will download in a `.zip` file. Unzip this file to a convenient location, this will act as your source directory. If using the binary then run:
 
 `markdownconverter -s <path to source directory or individual file>`
 
